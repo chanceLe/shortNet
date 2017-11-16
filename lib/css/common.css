@@ -1,0 +1,357 @@
+body{
+	font-family:PingFangSC-Regular,MicrosoftYaHei;
+	font-size: 14px;
+	color: #FFF;
+}
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	min-width: 1100px;
+	/*min-height: 900px;*/
+	min-height: 768px;
+	overflow: hidden;
+}
+.page1 .container{
+	/*padding-top: 43px;*/
+	background: url("../imgs/bg2.jpg") no-repeat;
+	background-position: center;
+	background-size: 1920px 1080px;
+}
+.page2 .container{
+	border-top: 1px solid transparent;
+	/*padding-top: 43px;*/
+	background: url("../imgs/botbg.png") no-repeat;
+	background-position: bottom;
+	background-size: 100% 25%;
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+
+}
+.page2{
+	/*overflow: hidden;*/
+}
+.page2 *{
+	/*border: 1px solid red;*/
+}
+.page2 .logo{
+	/*margin-top: 109px;*/
+	margin-top: 90px;
+}
+/*anniu*/
+.menugroup{
+	/*border: 1px solid blue;*/
+	padding-top: 43px;
+}
+.menu{
+	/*border: 1px solid red;*/
+	width: auto;
+	font-size: 14px;
+	float: right;
+}
+.menu a{
+	color: rgba(255,255,255,0.7);  /*.8*/
+}
+.menu span:last-child a{
+	border: none!important;
+}
+/*logo*/
+.logo{
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 135px;
+	height: 35px;
+	display: block;
+	margin:0 auto ;
+}
+
+/*content*/
+.content{
+	/*border:1px solid yellow;*/
+	width: 724px;
+	margin:90px auto 0;
+}
+.batch a{
+font-family: MicrosoftYaHei-Bold;
+font-size: 14px;
+color: #F5A623;
+font-weight: bolder;
+float: right;
+}
+/*输入框*/
+.input input{
+	outline: none;
+	display: block;
+	border: none;
+	width:100%;
+	height: 50px;
+	background-color: #FFF;
+	font-size: 14px;
+	color: #333333;
+	letter-spacing: 0.88px;
+	padding:2px 10px;
+	box-sizing: border-box;
+	margin-top: 7px;
+	-webkit-appearance: none;
+	 box-shadow: 0px 0px 7px #000;
+	 filter: progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=5);/*for ie6,7,8*/
+	-moz-box-shadow:0px 0px 7px #000;/*firefox*/
+	-webkit-box-shadow:0px 0px 7px #000;/*webkit*/
+	box-shadow:0px 0px 7px #000;/*opera或ie9*/
+}
+
+.tip1 {
+	margin-top: 10px;
+}
+.tip1 p{
+	font-size: 14px;
+	color: #FFFFFF;;
+	height: 20px;
+	/*border: 1px solid red;*/
+	line-height: 20px;
+}
+.tip1 p i{
+	font-style: normal;
+	display: inline-block;
+	color: #999999;
+	background-color: #FFF;
+	margin-right: 5px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+/*result*/
+.result{
+	/*font-family: MicrosoftYaHei;*/
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+vertical-align: middle;
+margin-top: 85px;
+display: none;
+}
+.result span{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.result .copy{
+	display: inline-block;
+	font-style: normal;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	border-radius: 30px;
+	background: #FDF8EA;
+	vertical-align: middle;
+	margin-left: 15px;
+	color: #F5A623;
+	font-weight: bolder;
+	line-height: 30px;
+	-webkit-user-select: none;
+}
+.result div:hover{
+	background-color: #F5A623!important;
+	color: #FFF!important;
+	border-radius: 30px;
+}
+.result .copyTip{
+	margin-left: 20px;
+	margin-top: -5px;
+	display: none;
+}
+.btnBox{
+	margin-top: 50px;
+}
+.btnBox .btn{
+	float: right;
+	width: 180px;
+	height: 40px;
+	background: #F5A623;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.24);
+	border-radius: 2px;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 1.78px;
+	font-weight: bolder;
+	line-height: 40px;
+	text-align: center;
+	-webkit-user-select: none;
+	font-family: "微软雅黑";
+}
+.warning{
+ 	display: none;
+}
+.warning p{
+	margin-top: 20px;
+	font-family: MicrosoftYaHei;
+	font-size: 13px;
+	color: #FFE6BC;
+	letter-spacing: 0.87px;
+	padding-left: 20px;
+	position: absolute;
+}
+.warning p span{
+	display: block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	border-radius: 16px;
+	color: #000;
+	left: 0;
+	top: -1px;
+	background-color:  #FFE6BC;
+}
+
+
+
+/*底部*/
+.bg{
+	display: block;
+	position: absolute;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	z-index: -3;
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+	max-width: 1920px;
+}
+.footer{
+	position: absolute;
+	bottom: 40px;
+	width: 1100px;
+	left: 50%;
+	font-size: 12px;
+	/*transform: translateX(-50%);*/
+	margin-left:-550px;
+}
+.links{
+	height: 40px;
+	/*border: 1px solid red;*/
+}
+.links span{
+  display: inline-block;
+  height: 20px;
+  padding: 3px 0;
+  color: rgba(255,255,255,.7);
+  /*border: 1px solid blue;*/
+  box-sizing: border-box;
+}
+.links a{
+	display: inline-block;
+	height: 14px;
+	padding: 0 15px 0 0;
+	margin-right: 15px;
+	color:rgba(255,255,255,.7);
+	/*border-right:1px solid #FFF;*/
+	border-right:1px solid rgba(255,255,255,.7);
+}
+.license{
+	font-family: MicrosoftYaHei-Bold;
+	color: #FFFFFF;
+	line-height: 24px;
+	text-align: center;
+	font-weight: bolder;
+	color:rgba(255,255,255,.7);
+}
+
+/*batchInput*/
+.batchInput textarea{
+	height: 400px;
+	width: 100%;
+	outline: none;
+	padding: 20px;
+	font-size: 14px;
+	color: #999999;
+	letter-spacing: 0.88px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+font-family: MicrosoftYaHei;
+font-size: 14px;
+color: #999999;
+letter-spacing: 0.88px;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+font-family: MicrosoftYaHei;
+font-size: 14px;
+color: #999999;
+letter-spacing: 0.88px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+font-family: MicrosoftYaHei;
+font-size: 14px;
+color: #999999;
+letter-spacing: 0.88px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+font-family: MicrosoftYaHei;
+font-size: 14px;
+color: #999999;
+letter-spacing: 0.88px;
+}
+
+/*page2*/
+.page2 .content{
+	/*border: 1px solid red;*/
+	margin: 45px auto 0;
+}
+.page2 .content p{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #2A2A2A;
+	line-height: 40px;
+	text-align: center;
+}
+.page2 .content.suggest{
+	margin-top: 70px;
+}
+.page2 .content.suggest p a{
+	font-family: MicrosoftYaHei;
+	font-size: 20px;
+	color: #1995FB;
+	-webkit-user-select: none;
+}
+.page2 .content.suggest img{
+	display: block;
+	margin: 54px auto 0;
+}
+.page2 .content.api h4{
+	font-family: MicrosoftYaHei;
+	font-size: 20px;
+	color: #333333;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.page2 .content.api h5{
+	font-size: 16px;
+	color: #333;
+	letter-spacing: 1px;
+}
+.page2 .apiItem{
+	margin-top: 20px;
+}
+.page2 .apiItem p{
+	text-align: left;
+	line-height: 30px;
+}
+/*点击样式*/
+.clickbtn{
+	color:#CA7F02!important;
+	background-color: #FFF!important;
+}
